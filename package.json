@@ -1,23 +1,73 @@
 {
-  "name": "gatsby-starter-service-relief",
+  "title": "Orlando Relief",
+  "name": "gatsby-theme-orlando-relief",
+  "version": "0.1.0",
   "private": true,
-  "version": "1.0.12",
-  "main": "index.js",
-  "author": "amberleyromo <amberleyjohanna@gmail.com> (@amberleyjohanna)",
+  "description": "Service Relief Orlando.",
+  "keywords": [
+    "covid-19",
+    "reactjs",
+    "gatsbyjs",
+    "gatsby-theme-service-relief",
+    "gatsby-starter-service-relief"
+  ],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JovaniPink/gatsby-service-relief-orlando"
+  },
+  "bugs": {
+    "url": "https://github.com/JovaniPink/gatsby-service-relief-orlando/issues"
+  },
+  "homepage": "https://www.jovi.solutions/",
+  "author": "Jovani Pink <jovanirosado@hotmail.com>",
+  "contributors": [
+    "Jovani Pink (https://www.jovanipink.com/)"
+  ],
+  "main": "index.js",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "develop": "gatsby develop",
+    "format": "prettier --ignore-path .gitignore --write \"**/*.{ts,tsx,js,json,yml,md}\"",
+    "lint": "eslint --ignore-path .gitignore \"**/*.{ts,tsx,js}\"",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "type-check": "tsc"
   },
   "dependencies": {
+    "gatsby-plugin-manifest": "^2.2.48",
+    "gatsby-plugin-page-creator": "^2.1.46",
+    "gatsby-plugin-postcss": "^2.1.22",
+    "gatsby-plugin-preact": "^3.1.28",
+    "gatsby-plugin-prefetch-google-fonts": "^1.4.3",
+    "gatsby-plugin-purgecss": "^4.0.1",
+    "gatsby-plugin-react-helmet": "^3.1.24",
+    "gatsby-plugin-sharp": "^2.4.13",
+    "gatsby-source-airtable": "^2.1.0",
+    "gatsby-source-filesystem": "^2.1.57",
+    "gatsby-transformer-sharp": "^2.3.19",
+    "gatsby-transformer-remark": "2.7.1",
+    "gatsby-remark-images": "3.2.1",
+    "gatsby-remark-static-images": "1.0.1",
+    "limax": "^2.0.0",
+    "preact": "^10.3.4",
+    "react-helmet": "^5.2.1",
+    "tailwindcss": "^1.2.0",
     "gatsby": "^2.19.47",
-    "gatsby-theme-service-relief": "^0.1.1",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "dotenv": "8.2.0",
+    "gatsby-link": "2.3.1"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "not dead"
+  ],
+  "engines": {
+    "node": ">= 10.19.0"
   }
 }
