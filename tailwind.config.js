@@ -12,7 +12,11 @@ module.exports = {
     fontFamily: {
       heading: ['Lato', 'sans-serif'],
     },
-    extend: {},
+    extend: {
+      colors: {
+        'orlando-blue': '#004b8c',
+      },
+    },
   },
   variants: {},
   plugins: [],

@@ -4,12 +4,12 @@ const Featured = () => (
   <div className="py-12 bg-white mb-20">
     <div className="max-w-screen-xl mx-auto">
       <div>
-        <p className="text-base leading-6 text-indigo-600 font-semibold tracking-wide uppercase">
+        <p className="text-base leading-6 text-orlando-blue font-semibold tracking-wide uppercase">
           Support
         </p>
-        <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
+        <h2 className="mt-2 text-2xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-3xl sm:leading-10">
           COVID-19 Solidarity Response Fund for the Hospitality Industry
-        </h3>
+        </h2>
         <p className="mt-4 max-w-2xl text-xl leading-7 text-gray-700">
           Donations support the Service Industry work to assist those in need;
           to ensure personnel get the care they need and frontline workers get
@@ -49,16 +49,20 @@ const Featured = () => (
                 <div className="mt-8 flex lg:flex-shrink-0">
                   <div className="inline-flex rounded-md shadow">
                     <a
-                      href="#"
-                      className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
+                      href="https://usbgfoundation.networkforgood.com/projects/95524-covid-19-relief-campaign"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                      className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-orlando-blue hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
                     >
                       Support
                     </a>
                   </div>
                   <div className="ml-3 inline-flex rounded-md shadow">
                     <a
-                      href="#"
-                      className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
+                      href="https://www.usbgfoundation.org/"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                      className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-orlando-blue bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
                     >
                       Website
                     </a>
@@ -97,16 +101,20 @@ const Featured = () => (
                 <div className="mt-8 flex lg:flex-shrink-0">
                   <div className="inline-flex rounded-md shadow">
                     <a
-                      href="#"
-                      className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
+                      href="https://secure.restaurantworkerscf.org/np/clients/restaurantworkerscf/donation.jsp"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                      className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-orlando-blue hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
                     >
                       Support
                     </a>
                   </div>
                   <div className="ml-3 inline-flex rounded-md shadow">
                     <a
-                      href="#"
-                      className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
+                      href="https://www.restaurantworkerscf.org/"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                      className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-orlando-blue bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
                     >
                       Website
                     </a>
@@ -146,16 +154,20 @@ const Featured = () => (
                 <div className="mt-8 flex lg:flex-shrink-0">
                   <div className="inline-flex rounded-md shadow">
                     <a
-                      href="#"
-                      className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
+                      href="https://rocunited.org/donate/"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                      className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-orlando-blue hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
                     >
                       Support
                     </a>
                   </div>
                   <div className="ml-3 inline-flex rounded-md shadow">
                     <a
-                      href="#"
-                      className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
+                      href="https://rocunited.org/"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                      className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-orlando-blue bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
                     >
                       Website
                     </a>
@@ -194,16 +206,20 @@ const Featured = () => (
                 <div className="mt-8 flex lg:flex-shrink-0">
                   <div className="inline-flex rounded-md shadow">
                     <a
-                      href="#"
-                      className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
+                      href="https://southernsmoke.org/support/"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                      className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-orlando-blue hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
                     >
                       Support
                     </a>
                   </div>
                   <div className="ml-3 inline-flex rounded-md shadow">
                     <a
-                      href="#"
-                      className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
+                      href="https://southernsmoke.org/"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                      className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-orlando-blue bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
                     >
                       Website
                     </a>
@@ -243,16 +259,20 @@ const Featured = () => (
                 <div className="mt-8 flex lg:flex-shrink-0">
                   <div className="inline-flex rounded-md shadow">
                     <a
-                      href="#"
-                      className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
+                      href="https://www.jamesbeard.org/donate"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                      className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-orlando-blue hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
                     >
                       Support
                     </a>
                   </div>
                   <div className="ml-3 inline-flex rounded-md shadow">
                     <a
-                      href="#"
-                      className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
+                      href="https://www.jamesbeard.org/"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                      className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-orlando-blue bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
                     >
                       Website
                     </a>

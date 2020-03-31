@@ -8,7 +8,7 @@ module.exports = {
     description: `This is a directory of the Orlando Relief projects from around the world. Each directory promotes local fundraisers and resources to support bars, restaurants, service businesses and more affected by the COVID-19 health crisis around the world.`,
     author: `@jovanipink`,
     authorName: `Jovani Pink`,
-    authorLink: `https://www.jovanipink.com`,
+    authorLink: `https://twitter.com/JovaniPink`,
     state: `Florida`,
     city: `Orlando`,
     formId: process.env.AIRTABLE_EMBED_ID,

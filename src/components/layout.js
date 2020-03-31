@@ -36,18 +36,25 @@ const Layout = ({ children }) => {
           siteState={data.site.siteMetadata.state}
         />
         <main>{children}</main>
-        <footer className="text-sm pt-10">
+        <footer className="text-sm pt-10 text-center">
           &copy; {new Date().getFullYear()} &amp; built with
           {` `}
-          <a className="text-blue-600" href="https://www.gatsbyjs.org">
+          <a className="text-blue-600" href="https://www.gatsbyjs.org" rel="noopener noreferrer"
+          target="_blank">
             Gatsby
+          </a>{' '}
+          and{` `}
+          <a className="text-blue-600" href="https://tailwindcss.com" rel="noopener noreferrer"
+          target="_blank">
+            Tailwind CSS
           </a>{' '}
           by{' '}
           <a className="text-blue-600" href={data.site.siteMetadata.authorLink}>
             {data.site.siteMetadata.authorName}
           </a>
           .{' '}
-          <a className="text-blue-600" href="https://www.servicerelief.us/">
+          <a className="text-blue-600" href="https://www.servicerelief.us" rel="noopener noreferrer"
+          target="_blank">
             Build one for your city.
           </a>
         </footer>

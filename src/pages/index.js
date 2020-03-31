@@ -4,7 +4,6 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import Featured from '../components/featured';
 import Description from '../components/description';
-import Cta from '../components/cta';
 import { graphql } from 'gatsby';
 
 import FormButton from '../components/form-button';
@@ -59,23 +58,23 @@ const IndexPage = ({
       <Featured />
 
       <div className="mb-20">
-        <p className="text-base leading-6 text-indigo-600 font-semibold tracking-wide uppercase">
+        <p className="text-base leading-6 text-orlando-blue font-semibold tracking-wide uppercase">
           Links
         </p>
-        <h3 className="mt-2 mb-4 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
+        <h2 className="mt-2 mb-4 text-2xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-3xl sm:leading-10">
           A list of resources for the service industry.
-        </h3>
+        </h2>
         {categories.map((category) => (
           <div
             key={slugsByCategory[category]}
             className="border-t border-gray-200 py-4"
           >
-            <h2
+            <h3
               id={slugsByCategory[category]}
               className="text-lg leading-6 font-medium text-gray-900"
             >
               {category}
-            </h2>
+            </h3>
             <ul className="list-disc pl-6 mt-4">
               {entitiesByCategory[category].map((entity) => (
                 <li key={entity.data.BusinessName}>
@@ -98,7 +97,6 @@ const IndexPage = ({
           </div>
         ))}
       </div>
-      <Cta />
     </Layout>
   );
 };
