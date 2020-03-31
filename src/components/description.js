@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 
 const Description = ({ city }) => (
-  <p className="text-lg mb-8">
-    A directory of fundraisers for {city} bars, venues, restaurants, and service
+  <p className="mt-4 max-w-2xl text-xl leading-7 text-gray-7000">
+    A directory of resources for {city} bars, venues, restaurants, and service
     businesses that can use our help to support their staff during the
     state-mandated shutdown.
   </p>

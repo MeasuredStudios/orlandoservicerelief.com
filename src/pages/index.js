@@ -1,20 +1,23 @@
-import React from "react";
+import React from 'react';
 
-import Layout from "../components/layout";
-import SEO from "../components/seo";
-import Featured from "../components/featured";
-import Description from "../components/description";
-import { graphql } from "gatsby";
+import Layout from '../components/layout';
+import SEO from '../components/seo';
+import Featured from '../components/featured';
+import Description from '../components/description';
+import Cta from '../components/cta';
+import { graphql } from 'gatsby';
 
-import FormButton from '../components/form-button'
+import FormButton from '../components/form-button';
 
 const IndexPage = ({
   data: {
     site,
-    allAirtable: { nodes: entities }
-  }
+    allAirtable: { nodes: entities },
+  },
 }) => {
-  const categories = [...new Set(entities.map(entity => entity.data.Category))];
+  const categories = [
+    ...new Set(entities.map((entity) => entity.data.Category)),
+  ];
 
   const slugsByCategory = entities.reduce((categories, entity) => {
     let category = entity.data.Category;
@@ -40,13 +43,13 @@ const IndexPage = ({
       <div className="mb-20">
         <Description city={site.siteMetadata.city} />
         <p className="text-lg mb-8">
-          Jump to:{" "}
+          Jump to:{' '}
           {categories.map((category, idx) => (
             <React.Fragment key={slugsByCategory[category]}>
               <a href={`#${slugsByCategory[category]}`} className="underline">
                 {category}
               </a>
-              {idx !== categories.length - 1 && " | "}
+              {idx !== categories.length - 1 && ' | '}
             </React.Fragment>
           ))}
         </p>
@@ -55,17 +58,26 @@ const IndexPage = ({
 
       <Featured />
 
-      <div className="mb-10">
-        {categories.map(category => (
-          <React.Fragment key={slugsByCategory[category]}>
+      <div className="mb-20">
+        <p className="text-base leading-6 text-indigo-600 font-semibold tracking-wide uppercase">
+          Links
+        </p>
+        <h3 className="mt-2 mb-4 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
+          A list of resources for the service industry.
+        </h3>
+        {categories.map((category) => (
+          <div
+            key={slugsByCategory[category]}
+            className="border-t border-gray-200 py-4"
+          >
             <h2
               id={slugsByCategory[category]}
-              className="text-xl font-bold mt-4"
+              className="text-lg leading-6 font-medium text-gray-900"
             >
               {category}
             </h2>
             <ul className="list-disc pl-6 mt-4">
-              {entitiesByCategory[category].map(entity => (
+              {entitiesByCategory[category].map((entity) => (
                 <li key={entity.data.BusinessName}>
                   <a
                     className="underline"
@@ -74,7 +86,7 @@ const IndexPage = ({
                     rel="noopener noreferrer"
                   >
                     {entity.data.BusinessName}
-                  </a>{" "}
+                  </a>{' '}
                   {entity.data.FundraiserDescription && (
                     <p className="mt-2 mb-2 italic">
                       {entity.data.FundraiserDescription}
@@ -83,9 +95,10 @@ const IndexPage = ({
                 </li>
               ))}
             </ul>
-          </React.Fragment>
+          </div>
         ))}
       </div>
+      <Cta />
     </Layout>
   );
 };

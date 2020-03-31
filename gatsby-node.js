@@ -1,4 +1,4 @@
-const slugify = require("limax");
+const slugify = require('limax');
 
 exports.onCreateNode = function onCreateNode({ actions, getNode, node }) {
   if (node.internal.type === `Airtable` && node.data.Category) {
@@ -6,7 +6,7 @@ exports.onCreateNode = function onCreateNode({ actions, getNode, node }) {
     actions.createNodeField({
       node,
       name: `slug`,
-      value: slugify(category)
+      value: slugify(category),
     });
   }
 };

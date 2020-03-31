@@ -1,10 +1,11 @@
-import { Link } from "gatsby";
-import PropTypes from "prop-types";
-import React from "react";
+import { Link } from 'gatsby';
+import PropTypes from 'prop-types';
+import React from 'react';
 
 const Header = ({ siteCity, siteState }) => (
   <header>
-    <h1 className="font-heading text-5xl py-16 leading-none">
+    <p className="text-base leading-none font-semibold text-indigo-600 uppercase tracking-wide pt-16">the City Beautiful</p>
+    <h1 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
       <Link to="/">
         <span>{siteCity}</span>
         <br />
@@ -19,13 +20,13 @@ const Header = ({ siteCity, siteState }) => (
 Header.propTypes = {
   siteTitle: PropTypes.string,
   siteCity: PropTypes.string,
-  siteState: PropTypes.string
+  siteState: PropTypes.string,
 };
 
 Header.defaultProps = {
   siteTitle: ``,
   siteCity: ``,
-  siteState: ``
+  siteState: ``,
 };
 
 export default Header;

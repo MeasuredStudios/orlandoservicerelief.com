@@ -29,13 +29,13 @@
   @apply mb-6;
 }
 .gatsby-readme ul li p {
-  margin: .5em 0;
+  margin: 0.5em 0;
 }
 .gatsby-readme code {
   padding: 3px 8px;
   font-size: 13px;
   line-height: 1.42857143;
-  color: #E01E5A;
+  color: #e01e5a;
   word-break: break-all;
   word-wrap: break-word;
   background-color: #f5f5f5;

@@ -5,12 +5,12 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-import React from "react";
-import PropTypes from "prop-types";
-import { useStaticQuery, graphql } from "gatsby";
+import React from 'react';
+import PropTypes from 'prop-types';
+import { useStaticQuery, graphql } from 'gatsby';
 
-import Header from "./header";
-import "../css/global.css";
+import Header from './header';
+import '../css/global.css';
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -29,7 +29,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <div className="container mx-auto max-w-2xl sm:px-0 px-4">
+      <div className="container max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
         <Header
           siteTitle={data.site.siteMetadata.title}
           siteCity={data.site.siteMetadata.city}
@@ -41,12 +41,12 @@ const Layout = ({ children }) => {
           {` `}
           <a className="text-blue-600" href="https://www.gatsbyjs.org">
             Gatsby
-          </a>{" "}
-          by{" "}
+          </a>{' '}
+          by{' '}
           <a className="text-blue-600" href={data.site.siteMetadata.authorLink}>
             {data.site.siteMetadata.authorName}
           </a>
-          .{" "}
+          .{' '}
           <a className="text-blue-600" href="https://www.servicerelief.us/">
             Build one for your city.
           </a>
@@ -57,7 +57,7 @@ const Layout = ({ children }) => {
 };
 
 Layout.propTypes = {
-  children: PropTypes.node.isRequired
+  children: PropTypes.node.isRequired,
 };
 
 export default Layout;
