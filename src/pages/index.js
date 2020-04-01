@@ -38,7 +38,7 @@ const IndexPage = ({
 
   return (
     <Layout>
-      <SEO title="Home" />
+      <SEO title="Orlando Service Relief" />
       <div className="mb-20">
         <Description city={site.siteMetadata.city} />
         <p className="text-lg mb-8">

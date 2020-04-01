@@ -4,7 +4,7 @@ require('dotenv').config({
 
 module.exports = {
   siteMetadata: {
-    title: `Service Relief Orlando`,
+    title: `Orlando Service Relief`,
     description: `This is a directory of the Orlando Relief projects from around the world. Each directory promotes local fundraisers and resources to support bars, restaurants, service businesses and more affected by the COVID-19 health crisis around the world.`,
     author: `@jovanipink`,
     authorName: `Jovani Pink`,

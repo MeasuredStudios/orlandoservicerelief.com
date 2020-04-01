@@ -281,6 +281,60 @@ const Featured = () => (
               </div>
             </div>
           </li>
+          <li className="border border-gray-200 py-4 mt-10 md:mt-0">
+            <div className="flex">
+              {/* <div className="flex-shrink-0">
+                <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                  <svg
+                    className="h-6 w-6"
+                    stroke="currentColor"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"
+                    />
+                  </svg>
+                </div>
+              </div> */}
+              <div className="ml-4">
+                <h5 className="text-lg leading-6 font-medium text-gray-900">
+                  National Restaurant Association Educational Foundation
+                </h5>
+                <p className="mt-2 text-base leading-6 text-gray-500">
+                  Through the Restaurant Employee Relief Fund, we will provide
+                  grants to restaurant industry employees who have been
+                  adversely impacted by COVID-19, financially, whether through a
+                  decrease in wages or loss of employment.
+                </p>
+                <div className="mt-8 flex lg:flex-shrink-0">
+                  <div className="inline-flex rounded-md shadow">
+                    <a
+                      href="https://rerf.us/make-a-donation/"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                      className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-orlando-blue hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
+                    >
+                      Support
+                    </a>
+                  </div>
+                  <div className="ml-3 inline-flex rounded-md shadow">
+                    <a
+                      href="https://rerf.us/"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                      className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-orlando-blue bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
+                    >
+                      Website
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
         </ul>
       </div>
     </div>
