@@ -1,26 +1,25 @@
 import React from 'react';
 
 const Featured = () => (
-  <div className="py-12 bg-white mb-20">
-    <div className="max-w-screen-xl mx-auto">
-      <div>
-        <p className="text-base leading-6 text-orlando-blue font-semibold tracking-wide uppercase">
-          Support
-        </p>
-        <h2 className="mt-2 text-2xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-3xl sm:leading-10">
-          COVID-19 Solidarity Response Fund for the Hospitality Industry
-        </h2>
-        <p className="mt-4 max-w-2xl text-xl leading-7 text-gray-700">
-          Donations support the Service Industry work to assist those in need;
-          to ensure personnel get the care they need and frontline workers get
-          essential supplies and training.
-        </p>
-      </div>
-      <div className="mt-10">
-        <ul className="md:grid md:grid-cols-2 md:col-gap-8 md:row-gap-10">
-          <li className="border border-gray-200 py-4">
-            <div className="flex">
-              {/* <div className="flex-shrink-0">
+  <div className="mb-20">
+    <div>
+      <p className="text-base leading-6 text-orlando-blue font-semibold tracking-wide uppercase">
+        Support
+      </p>
+      <h2 className="mt-2 text-2xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-3xl sm:leading-10">
+        COVID-19 Solidarity Response Fund for the Hospitality Industry
+      </h2>
+      <p className="mt-4 max-w-2xl text-xl leading-7 text-gray-700">
+        Donations support the Service Industry work to assist those in need; to
+        ensure personnel get the care they need and frontline workers get
+        essential supplies and training.
+      </p>
+    </div>
+    <div className="mt-10">
+      <ul className="md:grid md:grid-cols-2 md:col-gap-8 md:row-gap-10">
+        <li className="border border-gray-200 py-4">
+          <div className="flex">
+            {/* <div className="flex-shrink-0">
                 <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
                   <svg
                     className="h-6 w-6"
@@ -37,43 +36,43 @@ const Featured = () => (
                   </svg>
                 </div>
               </div> */}
-              <div className="ml-4">
-                <h5 className="text-lg leading-6 font-medium text-gray-900">
-                  USBG NATIONAL CHARITY FOUNDATION
-                </h5>
-                <p className="mt-2 text-base leading-6 text-gray-500">
-                  Advancing the Lifelong stability and wellbeing of service
-                  industry professionals through education & Charitable
-                  Activities.
-                </p>
-                <div className="mt-8 flex lg:flex-shrink-0">
-                  <div className="inline-flex rounded-md shadow">
-                    <a
-                      href="https://usbgfoundation.networkforgood.com/projects/95524-covid-19-relief-campaign"
-                      rel="noopener noreferrer"
-                      target="_blank"
-                      className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-orlando-blue hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
-                    >
-                      Support
-                    </a>
-                  </div>
-                  <div className="ml-3 inline-flex rounded-md shadow">
-                    <a
-                      href="https://www.usbgfoundation.org/"
-                      rel="noopener noreferrer"
-                      target="_blank"
-                      className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-orlando-blue bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
-                    >
-                      Website
-                    </a>
-                  </div>
+            <div className="ml-4">
+              <h5 className="text-lg leading-6 font-medium text-gray-900">
+                USBG NATIONAL CHARITY FOUNDATION
+              </h5>
+              <p className="mt-2 text-base leading-6 text-gray-500">
+                Advancing the Lifelong stability and wellbeing of service
+                industry professionals through education & Charitable
+                Activities.
+              </p>
+              <div className="mt-8 flex lg:flex-shrink-0">
+                <div className="inline-flex rounded-md shadow">
+                  <a
+                    href="https://usbgfoundation.networkforgood.com/projects/95524-covid-19-relief-campaign"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-orlando-blue hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
+                  >
+                    Support
+                  </a>
+                </div>
+                <div className="ml-3 inline-flex rounded-md shadow">
+                  <a
+                    href="https://www.usbgfoundation.org/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-orlando-blue bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
+                  >
+                    Website
+                  </a>
                 </div>
               </div>
             </div>
-          </li>
-          <li className="border border-gray-200 py-4 mt-10 md:mt-0">
-            <div className="flex">
-              {/* <div className="flex-shrink-0">
+          </div>
+        </li>
+        <li className="border border-gray-200 py-4 mt-10 md:mt-0">
+          <div className="flex">
+            {/* <div className="flex-shrink-0">
                 <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
                   <svg
                     className="h-6 w-6"
@@ -90,42 +89,42 @@ const Featured = () => (
                   </svg>
                 </div>
               </div> */}
-              <div className="ml-4">
-                <h5 className="text-lg leading-6 font-medium text-gray-900">
-                  RESTAURANT WORKERS’ COMMUNITY FOUNDATION
-                </h5>
-                <p className="mt-2 text-base leading-6 text-gray-500">
-                  We are a nationwide community dedicated to making the
-                  restaurant industry more hospitable to everyone.
-                </p>
-                <div className="mt-8 flex lg:flex-shrink-0">
-                  <div className="inline-flex rounded-md shadow">
-                    <a
-                      href="https://secure.restaurantworkerscf.org/np/clients/restaurantworkerscf/donation.jsp"
-                      rel="noopener noreferrer"
-                      target="_blank"
-                      className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-orlando-blue hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
-                    >
-                      Support
-                    </a>
-                  </div>
-                  <div className="ml-3 inline-flex rounded-md shadow">
-                    <a
-                      href="https://www.restaurantworkerscf.org/"
-                      rel="noopener noreferrer"
-                      target="_blank"
-                      className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-orlando-blue bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
-                    >
-                      Website
-                    </a>
-                  </div>
+            <div className="ml-4">
+              <h5 className="text-lg leading-6 font-medium text-gray-900">
+                RESTAURANT WORKERS’ COMMUNITY FOUNDATION
+              </h5>
+              <p className="mt-2 text-base leading-6 text-gray-500">
+                We are a nationwide community dedicated to making the restaurant
+                industry more hospitable to everyone.
+              </p>
+              <div className="mt-8 flex lg:flex-shrink-0">
+                <div className="inline-flex rounded-md shadow">
+                  <a
+                    href="https://secure.restaurantworkerscf.org/np/clients/restaurantworkerscf/donation.jsp"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-orlando-blue hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
+                  >
+                    Support
+                  </a>
+                </div>
+                <div className="ml-3 inline-flex rounded-md shadow">
+                  <a
+                    href="https://www.restaurantworkerscf.org/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-orlando-blue bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
+                  >
+                    Website
+                  </a>
                 </div>
               </div>
             </div>
-          </li>
-          <li className="border border-gray-200 py-4 mt-10 md:mt-0">
-            <div className="flex">
-              {/* <div className="flex-shrink-0">
+          </div>
+        </li>
+        <li className="border border-gray-200 py-4 mt-10 md:mt-0">
+          <div className="flex">
+            {/* <div className="flex-shrink-0">
                 <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
                   <svg
                     className="h-6 w-6"
@@ -142,43 +141,43 @@ const Featured = () => (
                   </svg>
                 </div>
               </div> */}
-              <div className="ml-4">
-                <h5 className="text-lg leading-6 font-medium text-gray-900">
-                  RESTAURANT OPPORTUNITIES CENTERS UNITED
-                </h5>
-                <p className="mt-2 text-base leading-6 text-gray-500">
-                  The Restaurant Opportunities Centers (ROC) United is a
-                  nonprofit organization fighting to improve wages and working
-                  conditions for the nation’s restaurant workforce.
-                </p>
-                <div className="mt-8 flex lg:flex-shrink-0">
-                  <div className="inline-flex rounded-md shadow">
-                    <a
-                      href="https://rocunited.org/donate/"
-                      rel="noopener noreferrer"
-                      target="_blank"
-                      className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-orlando-blue hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
-                    >
-                      Support
-                    </a>
-                  </div>
-                  <div className="ml-3 inline-flex rounded-md shadow">
-                    <a
-                      href="https://rocunited.org/"
-                      rel="noopener noreferrer"
-                      target="_blank"
-                      className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-orlando-blue bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
-                    >
-                      Website
-                    </a>
-                  </div>
+            <div className="ml-4">
+              <h5 className="text-lg leading-6 font-medium text-gray-900">
+                RESTAURANT OPPORTUNITIES CENTERS UNITED
+              </h5>
+              <p className="mt-2 text-base leading-6 text-gray-500">
+                The Restaurant Opportunities Centers (ROC) United is a nonprofit
+                organization fighting to improve wages and working conditions
+                for the nation’s restaurant workforce.
+              </p>
+              <div className="mt-8 flex lg:flex-shrink-0">
+                <div className="inline-flex rounded-md shadow">
+                  <a
+                    href="https://rocunited.org/donate/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-orlando-blue hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
+                  >
+                    Support
+                  </a>
+                </div>
+                <div className="ml-3 inline-flex rounded-md shadow">
+                  <a
+                    href="https://rocunited.org/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-orlando-blue bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
+                  >
+                    Website
+                  </a>
                 </div>
               </div>
             </div>
-          </li>
-          <li className="border border-gray-200 py-4 mt-10 md:mt-0">
-            <div className="flex">
-              {/* <div className="flex-shrink-0">
+          </div>
+        </li>
+        <li className="border border-gray-200 py-4 mt-10 md:mt-0">
+          <div className="flex">
+            {/* <div className="flex-shrink-0">
                 <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
                   <svg
                     className="h-6 w-6"
@@ -195,42 +194,42 @@ const Featured = () => (
                   </svg>
                 </div>
               </div> */}
-              <div className="ml-4">
-                <h5 className="text-lg leading-6 font-medium text-gray-900">
-                  SOUTHERN SMOKE FOUNDATION
-                </h5>
-                <p className="mt-2 text-base leading-6 text-gray-500">
-                  Southern Smoke is a crisis relief organization for people in
-                  the food and beverage industry.
-                </p>
-                <div className="mt-8 flex lg:flex-shrink-0">
-                  <div className="inline-flex rounded-md shadow">
-                    <a
-                      href="https://southernsmoke.org/support/"
-                      rel="noopener noreferrer"
-                      target="_blank"
-                      className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-orlando-blue hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
-                    >
-                      Support
-                    </a>
-                  </div>
-                  <div className="ml-3 inline-flex rounded-md shadow">
-                    <a
-                      href="https://southernsmoke.org/"
-                      rel="noopener noreferrer"
-                      target="_blank"
-                      className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-orlando-blue bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
-                    >
-                      Website
-                    </a>
-                  </div>
+            <div className="ml-4">
+              <h5 className="text-lg leading-6 font-medium text-gray-900">
+                SOUTHERN SMOKE FOUNDATION
+              </h5>
+              <p className="mt-2 text-base leading-6 text-gray-500">
+                Southern Smoke is a crisis relief organization for people in the
+                food and beverage industry.
+              </p>
+              <div className="mt-8 flex lg:flex-shrink-0">
+                <div className="inline-flex rounded-md shadow">
+                  <a
+                    href="https://southernsmoke.org/support/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-orlando-blue hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
+                  >
+                    Support
+                  </a>
+                </div>
+                <div className="ml-3 inline-flex rounded-md shadow">
+                  <a
+                    href="https://southernsmoke.org/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-orlando-blue bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
+                  >
+                    Website
+                  </a>
                 </div>
               </div>
             </div>
-          </li>
-          <li className="border border-gray-200 py-4 mt-10 md:mt-0">
-            <div className="flex">
-              {/* <div className="flex-shrink-0">
+          </div>
+        </li>
+        <li className="border border-gray-200 py-4 mt-10 md:mt-0">
+          <div className="flex">
+            {/* <div className="flex-shrink-0">
                 <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
                   <svg
                     className="h-6 w-6"
@@ -247,43 +246,43 @@ const Featured = () => (
                   </svg>
                 </div>
               </div> */}
-              <div className="ml-4">
-                <h5 className="text-lg leading-6 font-medium text-gray-900">
-                  JAMES BEARD FOUNDATION
-                </h5>
-                <p className="mt-2 text-base leading-6 text-gray-500">
-                  The James Beard Foundation’s mission is to celebrate, nurture,
-                  and honor chefs and other leaders making America's food
-                  culture more delicious, diverse, and sustainable for everyone.
-                </p>
-                <div className="mt-8 flex lg:flex-shrink-0">
-                  <div className="inline-flex rounded-md shadow">
-                    <a
-                      href="https://www.jamesbeard.org/donate"
-                      rel="noopener noreferrer"
-                      target="_blank"
-                      className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-orlando-blue hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
-                    >
-                      Support
-                    </a>
-                  </div>
-                  <div className="ml-3 inline-flex rounded-md shadow">
-                    <a
-                      href="https://www.jamesbeard.org/"
-                      rel="noopener noreferrer"
-                      target="_blank"
-                      className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-orlando-blue bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
-                    >
-                      Website
-                    </a>
-                  </div>
+            <div className="ml-4">
+              <h5 className="text-lg leading-6 font-medium text-gray-900">
+                JAMES BEARD FOUNDATION
+              </h5>
+              <p className="mt-2 text-base leading-6 text-gray-500">
+                The James Beard Foundation’s mission is to celebrate, nurture,
+                and honor chefs and other leaders making America's food culture
+                more delicious, diverse, and sustainable for everyone.
+              </p>
+              <div className="mt-8 flex lg:flex-shrink-0">
+                <div className="inline-flex rounded-md shadow">
+                  <a
+                    href="https://www.jamesbeard.org/donate"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-orlando-blue hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
+                  >
+                    Support
+                  </a>
+                </div>
+                <div className="ml-3 inline-flex rounded-md shadow">
+                  <a
+                    href="https://www.jamesbeard.org/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-orlando-blue bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
+                  >
+                    Website
+                  </a>
                 </div>
               </div>
             </div>
-          </li>
-          <li className="border border-gray-200 py-4 mt-10 md:mt-0">
-            <div className="flex">
-              {/* <div className="flex-shrink-0">
+          </div>
+        </li>
+        <li className="border border-gray-200 py-4 mt-10 md:mt-0">
+          <div className="flex">
+            {/* <div className="flex-shrink-0">
                 <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
                   <svg
                     className="h-6 w-6"
@@ -300,43 +299,42 @@ const Featured = () => (
                   </svg>
                 </div>
               </div> */}
-              <div className="ml-4">
-                <h5 className="text-lg leading-6 font-medium text-gray-900">
-                  National Restaurant Association Educational Foundation
-                </h5>
-                <p className="mt-2 text-base leading-6 text-gray-500">
-                  Through the Restaurant Employee Relief Fund, we will provide
-                  grants to restaurant industry employees who have been
-                  adversely impacted by COVID-19, financially, whether through a
-                  decrease in wages or loss of employment.
-                </p>
-                <div className="mt-8 flex lg:flex-shrink-0">
-                  <div className="inline-flex rounded-md shadow">
-                    <a
-                      href="https://rerf.us/make-a-donation/"
-                      rel="noopener noreferrer"
-                      target="_blank"
-                      className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-orlando-blue hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
-                    >
-                      Support
-                    </a>
-                  </div>
-                  <div className="ml-3 inline-flex rounded-md shadow">
-                    <a
-                      href="https://rerf.us/"
-                      rel="noopener noreferrer"
-                      target="_blank"
-                      className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-orlando-blue bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
-                    >
-                      Website
-                    </a>
-                  </div>
+            <div className="ml-4">
+              <h5 className="text-lg leading-6 font-medium text-gray-900">
+                National Restaurant Association Educational Foundation
+              </h5>
+              <p className="mt-2 text-base leading-6 text-gray-500">
+                Through the Restaurant Employee Relief Fund, we will provide
+                grants to restaurant industry employees who have been adversely
+                impacted by COVID-19, financially, whether through a decrease in
+                wages or loss of employment.
+              </p>
+              <div className="mt-8 flex lg:flex-shrink-0">
+                <div className="inline-flex rounded-md shadow">
+                  <a
+                    href="https://rerf.us/make-a-donation/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-orlando-blue hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
+                  >
+                    Support
+                  </a>
+                </div>
+                <div className="ml-3 inline-flex rounded-md shadow">
+                  <a
+                    href="https://rerf.us/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-orlando-blue bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
+                  >
+                    Website
+                  </a>
                 </div>
               </div>
             </div>
-          </li>
-        </ul>
-      </div>
+          </div>
+        </li>
+      </ul>
     </div>
   </div>
 );
