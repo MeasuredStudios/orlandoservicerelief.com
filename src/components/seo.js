@@ -78,7 +78,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           property: `fb:app_id`,
-          content: ``,
+          content: `234073427786046`,
         },
         {
           name: `twitter:card`,
@@ -98,7 +98,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           property: `twitter:image`,
-          content: image,
+          content: site.siteMetadata.image,
         },
         {
           property: `twitter:image:alt`,
