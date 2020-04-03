@@ -19,6 +19,7 @@ function SEO({ description, lang, meta, title }) {
             title
             description
             authorName
+            siteUrl
             image
           }
         }
@@ -62,7 +63,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           property: `og:image`,
-          content: site.siteMetadata.image,
+          content: `${data.site.siteMetadata.siteUrl}${metaImage.src}`,
         },
         {
           property: `og:image:alt`,
@@ -98,7 +99,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           property: `twitter:image`,
-          content: site.siteMetadata.image,
+          content: `${data.site.siteMetadata.siteUrl}${metaImage.src}`,
         },
         {
           property: `twitter:image:alt`,
@@ -111,7 +112,7 @@ function SEO({ description, lang, meta, title }) {
         {
           property: `twitter:url`,
           content: `https://www.orlandoservicerelief.com/`,
-        }
+        },
       ].concat(meta)}
     />
   );
@@ -121,6 +122,7 @@ SEO.defaultProps = {
   lang: `en`,
   meta: [],
   description: ``,
+  siteUrl: ``,
   image: ``,
 };
 
@@ -129,6 +131,7 @@ SEO.propTypes = {
   lang: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),
   title: PropTypes.string.isRequired,
+  siteUrl: PropTypes.string,
   image: PropTypes.string,
 };
 

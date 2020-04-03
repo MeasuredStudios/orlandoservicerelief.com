@@ -9,6 +9,7 @@ module.exports = {
     author: `@jovanipink`,
     authorName: `Jovani Pink`,
     authorLink: `https://twitter.com/JovaniPink`,
+    siteUrl: `https://www.orlandoservicerelief.com`,
     image: `/orlando.jpg`,
     state: `Florida`,
     city: `Orlando`,
