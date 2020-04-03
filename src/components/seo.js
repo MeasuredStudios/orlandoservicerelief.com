@@ -52,6 +52,30 @@ function SEO({ description, lang, meta, title }) {
           content: `website`,
         },
         {
+          property: `og:site_name`,
+          content: `Orlando Service Relief`
+        },
+        {
+          property: `og:url`,
+          content: `https://www.orlandoservicerelief.com/`
+        },
+        {
+          property: `og:image`,
+          content: `https://www.orlandoservicerelief.com/orlando.png`
+        },
+        {
+          property: `og:image:alt`,
+          content: `An image of a group of people with all hands in`
+        },
+        {
+          property: `og:locale`,
+          content: `en_US`
+        },
+        {
+          property: `article:author`,
+          content: `https://www.facebook.com/JOVANIPINK`
+        },
+        {
           name: `twitter:card`,
           content: `This is a directory of the Orlando Relief projects from around the world. Each directory promotes local fundraisers and resources to support bars, restaurants, service businesses and more affected by the COVID-19 health crisis around the world.`,
         },
@@ -60,12 +84,24 @@ function SEO({ description, lang, meta, title }) {
           content: site.siteMetadata.authorName,
         },
         {
+          property: `twitter:url`,
+          content: `https://www.orlandoservicerelief.com/`
+        },
+        {
           name: `twitter:title`,
           content: title,
         },
         {
           name: `twitter:description`,
           content: metaDescription,
+        },
+        {
+          property: `twitter:image`,
+          content: `https://www.orlandoservicerelief.com/orlando.png`
+        },
+        {
+          property: `twitter:image:alt`,
+          content: `An image of a group of people with all hands in`
         },
       ].concat(meta)}
     />

@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://www.orlando.gov/Home">
-    <img alt="Gatsby" src="./cityoforlando_horizontal_logo_official.png" width="198" />
+  <a href="https://www.orlandoservicerelief.com/">
+    <img alt="Gatsby" src="./static/cityoforlando_horizontal_logo_official.png" width="198" />
   </a>
 </p>
 <h1 align="center">
