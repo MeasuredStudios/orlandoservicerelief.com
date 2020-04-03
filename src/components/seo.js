@@ -61,7 +61,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           property: `og:image`,
-          content: `https://www.orlandoservicerelief.com/orlando.png`
+          content: `https://www.orlandoservicerelief.com/orlando.jpg`
         },
         {
           property: `og:image:alt`,
@@ -81,15 +81,11 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           name: `twitter:card`,
-          content: `This is a directory of the Orlando Relief projects from around the world.`,
+          content: `summary_large_image`,
         },
         {
-          name: `twitter:creator`,
-          content: site.siteMetadata.authorName,
-        },
-        {
-          property: `twitter:url`,
-          content: `https://www.orlandoservicerelief.com/`
+          name: `twitter:site`,
+          content: `@JovaniPink`,
         },
         {
           name: `twitter:title`,
@@ -101,12 +97,24 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           property: `twitter:image`,
-          content: `https://www.orlandoservicerelief.com/orlando.png`
+          content: `https://www.orlandoservicerelief.com/orlando.jpg`
         },
         {
           property: `twitter:image:alt`,
           content: `An image of a group of people with all hands in`
         },
+        {
+          name: `twitter:creator`,
+          content: site.siteMetadata.authorName,
+        },
+        {
+          property: `twitter:url`,
+          content: `https://www.orlandoservicerelief.com/`
+        },
+
+
+
+
       ].concat(meta)}
     />
   );
