@@ -10,7 +10,7 @@ import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import { useStaticQuery, graphql } from 'gatsby';
 
-function SEO({ description, lang, meta, title }) {
+function SEO({ description, lang, meta, title, image }) {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -19,6 +19,7 @@ function SEO({ description, lang, meta, title }) {
             title
             description
             authorName
+            image
           }
         }
       }
@@ -53,31 +54,31 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           property: `og:site_name`,
-          content: `Orlando Service Relief`
+          content: `Orlando Service Relief`,
         },
         {
           property: `og:url`,
-          content: `https://www.orlandoservicerelief.com/`
+          content: `https://www.orlandoservicerelief.com/`,
         },
         {
           property: `og:image`,
-          content: `https://www.orlandoservicerelief.com/orlando.jpg`
+          content: image,
         },
         {
           property: `og:image:alt`,
-          content: `An image of a group of people with all hands in`
+          content: `An image of a group of people with all hands in`,
         },
         {
           property: `og:locale`,
-          content: `en_US`
+          content: `en_US`,
         },
         {
           property: `article:author`,
-          content: `https://www.facebook.com/JOVANIPINK`
+          content: `https://www.facebook.com/JOVANIPINK`,
         },
         {
           property: `fb:app_id`,
-          content: ``
+          content: ``,
         },
         {
           name: `twitter:card`,
@@ -97,11 +98,11 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           property: `twitter:image`,
-          content: `https://www.orlandoservicerelief.com/orlando.jpg`
+          content: image,
         },
         {
           property: `twitter:image:alt`,
-          content: `An image of a group of people with all hands in`
+          content: `An image of a group of people with all hands in`,
         },
         {
           name: `twitter:creator`,
@@ -109,12 +110,8 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           property: `twitter:url`,
-          content: `https://www.orlandoservicerelief.com/`
-        },
-
-
-
-
+          content: `https://www.orlandoservicerelief.com/`,
+        }
       ].concat(meta)}
     />
   );
@@ -124,6 +121,7 @@ SEO.defaultProps = {
   lang: `en`,
   meta: [],
   description: ``,
+  image: ``,
 };
 
 SEO.propTypes = {
@@ -131,6 +129,7 @@ SEO.propTypes = {
   lang: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),
   title: PropTypes.string.isRequired,
+  image: PropTypes.string,
 };
 
 export default SEO;

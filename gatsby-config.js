@@ -9,6 +9,7 @@ module.exports = {
     author: `@jovanipink`,
     authorName: `Jovani Pink`,
     authorLink: `https://twitter.com/JovaniPink`,
+    image: `/orlando.jpg`,
     state: `Florida`,
     city: `Orlando`,
     formId: process.env.AIRTABLE_EMBED_ID,
