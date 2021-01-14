@@ -49,7 +49,7 @@
     "gatsby-transformer-sharp": "^2.3.19",
     "gatsby-transformer-remark": "2.7.1",
     "gatsby-remark-images": "3.2.1",
-    "gatsby-remark-static-images": "1.0.1",
+    "gatsby-remark-static-images": "1.2.1",
     "limax": "^2.0.0",
     "preact": "^10.3.4",
     "react-helmet": "^5.2.1",
