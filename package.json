@@ -8,6 +8,7 @@
     "covid-19",
     "reactjs",
     "gatsbyjs",
+    "tailwindcss",
     "gatsby-theme-service-relief",
     "gatsby-starter-service-relief"
   ],
@@ -68,6 +69,6 @@
     "not dead"
   ],
   "engines": {
-    "node": ">= 10.19.0"
+    "node": ">= 14.15.1"
   }
 }
