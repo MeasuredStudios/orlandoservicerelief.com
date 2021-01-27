@@ -10,6 +10,8 @@ module.exports = {
     authorName: `Jovani Pink`,
     authorLink: `https://twitter.com/JovaniPink`,
     siteUrl: `https://www.orlandoservicerelief.com`,
+    keywords:
+      'Orlando Service Relief, Orlando, Orlando, FL, Central Florida',
     image: `/orlando.jpg`,
     state: `Florida`,
     city: `Orlando`,
@@ -57,39 +59,30 @@ module.exports = {
         icon: require.resolve(`./src/assets/images/heart.png`),
       },
     },
-    // {
-    //   resolve: `gatsby-plugin-prefetch-google-fonts`,
-    //   options: {
-    //     "fonts": [
-    //       {
-    //         "family": "Roboto",
-    //         "variants": [
-    //           "400",
-    //           "400i",
-    //           "700",
-    //           "700i"
-    //         ],
-    //         "subsets": [
-    //           "latin-ext"
-    //         ]
-    //       }
-    //     ],
-    //     "formats": [
-    //       "woff",
-    //       "woff2"
-    //     ],
-    //   },
-    // },
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        "fonts": [
+          {
+            "family": "Roboto",
+            "variants": [
+              "400",
+              "400i",
+              "700",
+              "700i"
+            ],
+            "subsets": [
+              "latin-ext"
+            ]
+          }
+        ],
+        "formats": [
+          "woff",
+          "woff2"
+        ],
+      },
+    },
     `gatsby-plugin-preact`,
-    // this seems to break our CSS
-    // {
-    //   resolve: `gatsby-plugin-purgecss`,
-    //   options: {
-    //     printRejected: process.env.gatsby_log_level === `verbose`,
-    //     develop: process.env.NODE_ENV !== `production`,
-    //     tailwind: true,
-    //   },
-    // },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
