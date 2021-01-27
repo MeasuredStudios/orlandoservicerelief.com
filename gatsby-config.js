@@ -59,29 +59,29 @@ module.exports = {
         icon: require.resolve(`./src/assets/images/heart.png`),
       },
     },
-    {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
-      options: {
-        "fonts": [
-          {
-            "family": "Roboto",
-            "variants": [
-              "400",
-              "400i",
-              "700",
-              "700i"
-            ],
-            "subsets": [
-              "latin-ext"
-            ]
-          }
-        ],
-        "formats": [
-          "woff",
-          "woff2"
-        ],
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-prefetch-google-fonts`,
+    //   options: {
+    //     "fonts": [
+    //       {
+    //         "family": "Roboto",
+    //         "variants": [
+    //           "400",
+    //           "400i",
+    //           "700",
+    //           "700i"
+    //         ],
+    //         "subsets": [
+    //           "latin-ext"
+    //         ]
+    //       }
+    //     ],
+    //     "formats": [
+    //       "woff",
+    //       "woff2"
+    //     ],
+    //   },
+    // },
     `gatsby-plugin-preact`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
