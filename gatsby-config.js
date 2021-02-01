@@ -10,8 +10,7 @@ module.exports = {
     authorName: `Jovani Pink`,
     authorLink: `https://twitter.com/JovaniPink`,
     siteUrl: `https://www.orlandoservicerelief.com`,
-    keywords:
-      'Orlando Service Relief, Orlando, Orlando, FL, Central Florida',
+    keywords: 'Orlando Service Relief, Orlando, Orlando, FL, Central Florida',
     image: `/orlando.jpg`,
     state: `Florida`,
     city: `Orlando`,

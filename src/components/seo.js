@@ -42,6 +42,14 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription,
         },
         {
+          name: `keywords`,
+          content: 'Orlando Service Relief, Orlando, Orlando, FL, Central Florida',
+        },
+        {
+          'http-equiv': `content-language`,
+          content: `en-us`,
+        },
+        {
           property: `og:title`,
           content: title,
         },
@@ -83,7 +91,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           name: `twitter:card`,
-          content: `summary_large_image`,
+          content: `summary`,
         },
         {
           name: `twitter:site`,
