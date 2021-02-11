@@ -54,7 +54,7 @@
     "gatsby-source-filesystem": "2.9.0",
     "gatsby-transformer-remark": "2.7.1",
     "gatsby-transformer-sharp": "2.10.1",
-    "limax": "2.1.0",
+    "limax": "3.0.0",
     "preact": "10.5.10",
     "react": "16.14.0",
     "react-dom": "16.14.0",
