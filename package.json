@@ -38,7 +38,7 @@
   },
   "dependencies": {
     "dotenv": "8.2.0",
-    "gatsby": "^2.31.1",
+    "gatsby": "2.32.13",
     "gatsby-link": "2.3.1",
     "gatsby-plugin-manifest": "2.10.0",
     "gatsby-plugin-page-creator": "2.8.1",
