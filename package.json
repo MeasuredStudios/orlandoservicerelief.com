@@ -37,7 +37,7 @@
     "type-check": "tsc"
   },
   "dependencies": {
-    "dotenv": "8.2.0",
+    "dotenv": "10.0.0",
     "gatsby": "^2.31.1",
     "gatsby-link": "2.3.1",
     "gatsby-plugin-manifest": "2.10.0",
