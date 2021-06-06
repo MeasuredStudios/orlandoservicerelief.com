@@ -62,7 +62,7 @@
     "tailwindcss": "1.9.6"
   },
   "devDependencies": {
-    "prettier": "2.2.1"
+    "prettier": "2.3.1"
   },
   "browserslist": [
     "last 2 versions",
