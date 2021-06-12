@@ -45,7 +45,7 @@
     "gatsby-plugin-postcss": "2.3.13",
     "gatsby-plugin-preact": "3.3.2",
     "gatsby-plugin-prefetch-google-fonts": "1.4.3",
-    "gatsby-plugin-purgecss": "5.0.0",
+    "gatsby-plugin-purgecss": "6.0.2",
     "gatsby-plugin-react-helmet": "3.8.0",
     "gatsby-plugin-sharp": "2.12.1",
     "gatsby-remark-images": "3.2.1",
